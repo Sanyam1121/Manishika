@@ -1,0 +1,38 @@
+ /* Add some styling for better appearance */
+ body {
+    /* Set the background image */
+    background: url('bg.png') no-repeat center center fixed; 
+    /* Adjust background size as needed */
+    background-size: cover;
+    /* Add additional styling if necessary */
+    color: #ffffff; /* Set text color to white, for example */
+    font-family: Arial, sans-serif; /* Set font family */
+  }
+
+    #Title{
+        position: relative;
+      width: 300px;
+      margin-left: 42%;
+      
+      
+color: black;
+    }
+
+    #video-container {
+      position: relative;
+      width: 300px;
+      margin: auto;
+      margin-top: 17%;
+      
+      
+      
+      
+    }
+
+    #play-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      cursor: pointer;
+    }
